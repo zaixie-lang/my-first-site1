@@ -13,14 +13,14 @@ export default function Home() {
 
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-6 sm:mb-8 text-[#003554] leading-[1.5] sm:leading-[1.4] break-keep">
-            안녕하세요, <span className="inline-block bg-[#003554] text-white px-3 py-1 sm:px-4 sm:py-1.5 rounded-xl sm:rounded-2xl shadow-md whitespace-nowrap">강담수학</span>입니다
+            안녕하세요, <span className="inline-block bg-[#003554] text-white px-3 py-1 sm:px-4 sm:py-1.5 rounded-xl sm:rounded-2xl shadow-md whitespace-nowrap">S&C학원</span>입니다
           </h1>
           
           <div className="flex justify-center mb-6 sm:mb-8">
             <div className="relative w-24 h-24 sm:w-[110px] sm:h-[110px] rounded-full overflow-hidden shadow-md border-4 border-white/40 flex-shrink-0">
               <Image 
                 src="/sc_logo.png" 
-                alt="강담수학 로고" 
+                alt="S&C학원 로고" 
                 fill
                 className="object-cover scale-[1.25]" 
               />
