@@ -15,8 +15,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "S&C학원 - 명문 맞춤 교육",
-  description: "학생 맞춤형 전문 교육기관 S&C학원 온라인 상담 및 문의",
+  metadataBase: new URL("https://sncedu.vercel.app"),
+  title: "광명 철산 S&C학원 | 영어·수학·독서논술",
+  description: "아이의 성장을 함께하는 S&C학원. 영어·수학·독서논술부터 유아교육까지.",
+  openGraph: {
+    title: "광명 철산 S&C학원 | 영어·수학·독서논술",
+    description: "아이의 성장을 함께하는 S&C학원. 영어·수학·독서논술부터 유아교육까지.",
+    url: "https://sncedu.vercel.app",
+    siteName: "광명 철산 S&C학원",
+    images: [
+      {
+        url: "/sc_logo.png",
+        width: 800,
+        height: 800,
+        alt: "S&C학원 로고",
+      },
+    ],
+    locale: "ko_KR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "광명 철산 S&C학원 | 영어·수학·독서논술",
+    description: "아이의 성장을 함께하는 S&C학원. 영어·수학·독서논술부터 유아교육까지.",
+    images: ["/sc_logo.png"],
+  },
   verification: {
     google: "-6Rz3QPeRNyyytX2xGwp8pfBoG36qEj4Sv44Zk5dHIA",
     other: {
