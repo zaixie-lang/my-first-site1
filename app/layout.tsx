@@ -17,6 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "S&C학원 - 명문 맞춤 교육",
   description: "학생 맞춤형 전문 교육기관 S&C학원 온라인 상담 및 문의",
+  verification: {
+    google: "-6Rz3QPeRNyyytX2xGwp8pfBoG36qEj4Sv44Zk5dHIA",
+    other: {
+      "naver-site-verification": "e9d869b21f74f4159572d125cfcd014f7c7dae00",
+    },
+  },
 };
 
 export default function RootLayout({
